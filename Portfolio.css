@@ -10,6 +10,7 @@ h1{
 .semestre1 {
   font-size: 25px;
   display: inline-block;
+  color: black;
   border: 0.5em solid black;
   padding: 0.5em;
   width: 20em;
@@ -20,8 +21,8 @@ h1{
   
 .semestre2 {
   font-size: 25px;
-  border: 0.5em solid white;
-  color: white;
+  border: 0.5em solid black;
+  color: black;
   padding: 0.5em;
   width: 20em;
   height: auto;
@@ -32,7 +33,7 @@ h1{
 .styled {
   font-size: large;
   color: white;
-  background-color: black;
+  background-color: rgba(192, 192, 192, 0.993);
   margin: 37px;
   padding: 0.2em;
 }
@@ -43,7 +44,7 @@ p{
 
 body{
   background-image: 
-  url("Image/Portfolio.png")
+  url("Image/Fond.png")
 }
 
 footer{
