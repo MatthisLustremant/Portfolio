@@ -1,0 +1,85 @@
+h1{
+  font-size: 50px;
+  margin-top: auto;
+  text-align: center;
+  margin-left: 250px;
+  color: black;
+  }
+
+  
+.semestre1 {
+  font-size: 25px;
+  display: inline-block;
+  color: black;
+  border: 0.5em solid black;
+  padding: 0.5em;
+  width: 20em;
+  height: auto;
+  text-align: justify;
+  margin-right: auto;
+  }
+  
+.semestre2 {
+  font-size: 25px;
+  border: 0.5em solid black;
+  color: black;
+  padding: 0.5em;
+  width: 20em;
+  height: auto;
+  text-align: justify;
+  float: right;
+  }
+  
+.styled {
+  font-size: large;
+  color: white;
+  background-color: rgba(192, 192, 192, 0.993);
+  margin: 37px;
+  padding: 0.2em;
+}
+
+p{
+  font-size: large;
+}
+
+body{
+  background-image: 
+  url("Image/Fond.png")
+}
+
+footer{
+  text-align: center;
+  color: black;
+}
+
+section{
+  color: black;
+}
+
+hr{
+  margin-top: 45px;
+  padding: 1px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  font-size: 10%;
+}
+
+.image {
+  border: 15px solid;
+  border-image: url("Image/Cadre.png") 8;
+}
+
+a {
+  margin: 5px;
+  float: right;
+}
+
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
